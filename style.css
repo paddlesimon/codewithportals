@@ -6,16 +6,16 @@
 	}
 		
 		header p {
-			line-height: 32px;
+			line-height: 28px;
 		}
 		
 			header p.title {
-				font-size: 30px;
+				font-size: 34px;
 				line-height: 40px;
 			}
 	
 	section.posts {
-		margin-top: 20px;
+		margin-top: 60px;
 	}
 	
 	footer {
