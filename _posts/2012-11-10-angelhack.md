@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 # Angelhack
 
 So we're hacking at Angelhack.
