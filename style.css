@@ -1,0 +1,27 @@
+	
+	@import url('//code.jdrydn.com/css/mou-github2.css');
+	
+	header {
+		
+	}
+		
+		header p {
+			line-height: 32px;
+		}
+		
+			header p.title {
+				font-size: 30px;
+				line-height: 40px;
+			}
+	
+	section.posts {
+		margin-top: 20px;
+	}
+	
+	footer {
+		margin-top: 80px;
+	}
+		
+		footer p {
+			line-height: 18px;
+		}

@@ -1,28 +1,19 @@
 ---
 layout: default
 ---
-			
-			<header>
-				<p class="title">Codewithportals</p>
-				<p>A blog on coding, technology and web development.</p>
-				<p>With portals.</p>
-				<footer>
-					<p>By <a href="//jdrydn.com">James</a>.</p>
-					<p>Last updated at {{ site.time | date_to_long_string }}.</p>
-				</footer>
-			</header>
-			
-			{% for post in site.posts %}
+		<header>
+			<p class="title">Codewithportals</p>
+			<p>A blog on coding, technology and web development.</p>
+			<p>With portals.</p>
+		</header>
+		
+		<section class="posts">
+		{% for post in site.posts %}
 			<p><a href="{{ post.url }}">{{ post.title }}</a></p>
-			{% endfor %}
-			
-			<section class="home">
-				<div class="row-fluid">
-					<div class="span4">
-						
-					</div>
-					<div class="span8">
-						
-					</div>
-				</div>
-			</section>
+		{% endfor %}
+		</section>
+		
+		<footer>
+			<p>By <a href="//jdrydn.com">James</a>.</p>
+			<p>Last updated at {{ site.time | date_to_long_string }}.</p>
+		</footer>
