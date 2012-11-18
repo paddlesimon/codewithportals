@@ -1,9 +1,18 @@
 ---
 layout: default
 ---
-			<div class="row-fluid">
-				<div class="span4">&nbsp;</div>
-				<div class="span8">
-{{ content }}					
+			<section class="post">
+				<div class="row-fluid">
+					<div class="span4">&nbsp;</div>
+					<div class="span8">
+						
+						{{ content }}
+						
+						<footer>
+							<p>A post on <a href="{{ site.url }}">codewithportals</a>.</p>
+							<p>Last updated {{ site.time | date_to_long_string }}.</p>
+						</footer>
+						
+					</div>
 				</div>
-			</div>
+			</section>
