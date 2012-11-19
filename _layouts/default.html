@@ -10,5 +10,13 @@
 			
 {{ content }}
 		
+		<script src="//code.jdrydn.com/js/jquery/jquery.1.7.1.min.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				
+				$('a[href^="//"], a[href^="http://"], a[href^="https://"]').not('[href*="code.withportals.com"]').attr('target','_blank');
+				
+			});
+		</script>
 	</body>
 </html>
