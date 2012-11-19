@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: The Structure Of This Blog
 
 ---

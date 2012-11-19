@@ -190,10 +190,9 @@ The code from this weekend itself is on [Github][github], although this isn't th
 
 I really enjoyed working on this API over the weekend. A big thank you to Greg from Angelhack and Tom from Mindwork Labs for organising the event and a big thanks to the staff at Bloomberg for opening up port `22` for SSH. Made our lives *so* much easier!
 
-And a bigger thank you to [Becca][becca] for the initial idea and excellent designs, and [Chris][djpc] for building the Android app `:)` Which reminds me, need to root this [San Diego phone][diego]...
+And a bigger thank you to [Becca][becca] for the initial idea and excellent designs, and [Chris][djpc] for building the Android app `:)`
 
 [becca]: //carbondeclare.co.uk
-[diego]: //code.withportals.com/post/27131381594/orange-san-diego-a-few-weekends-ago-i-took-park
 [djpc]: //djpc.org.uk
 [github]: https://github.com/jdrydn/Angelhack2012
 [phonegap]: //phonegap.com
