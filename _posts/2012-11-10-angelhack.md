@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Angelhack
 ---
 
 # Angelhack
@@ -183,7 +184,7 @@ So whilst [Chris][djpc] works on the Android app, I'm playing around with [Phone
 
 So we finished the event early, leaving before the pitches. We decided against pitching, given the fact that the apps were themselves shaky, and we have so many more plans for social integration before we reveal the app to the public.
 
-The code from this weekend itself is on [GitHub][github], although this isn't the code used on the live server. Since then we've implemented more security and more tables, because this code is going to be used in a production environment `:D`
+The code from this weekend itself is on [Github][github], although this isn't the code used on the live server. Since then we've implemented more security and more tables, because this code is going to be used in a production environment `:D`
 
 ## Thanks!
 
