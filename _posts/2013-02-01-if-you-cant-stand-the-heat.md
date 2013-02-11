@@ -24,6 +24,14 @@ Awesome. That is pretty awesome. I kinda wish I'd done something similar with Ja
 
 But what about Windows users? I've heard that 'ghci' works from the Windows command line, although I haven't tested this.
 
+### Update (2013-02-08)
+
+GHCI actually has some excellent commands, including an editor, so by setting an editor (`:set editor nano`) and then calling the editor with `:e`. You can also set a default editor (so you don't have to `:set editor nano` every time you load GHCI) by having a `~/.ghci` configuration file with the set editor command:
+
+	:set editor nano
+
+This means we don't need another IDE (like Coda) or another shell open simultaneously to edit Haskell files. We can do everything in GHCI. Brilliant! `:)`
+
 [#co537]: http://twitter.com
 [coda]: http://panic.com/coda
 [ghci]: http://www.haskell.org/haskellwiki/GHC/GHCi
