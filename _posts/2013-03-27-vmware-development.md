@@ -6,7 +6,7 @@ title: VMWare Development
 
 # VMWare Development
 
-Over the six months or so I've been using [VirtualBox][virtualbox] & an [Ubuntu Server][ubuntu] OS as my `devbox` (development machine). And it's been great.
+Over the six months or so I've been using [Virtualbox][virtualbox] & an [Ubuntu Server][ubuntu] OS as my `devbox` (development machine). And it's been great.
 
 Except for Virtualbox **draining** my battery.
 
