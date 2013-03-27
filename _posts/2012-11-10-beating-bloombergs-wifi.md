@@ -3,6 +3,7 @@ layout: post
 title: Beating Bloomberg's Wifi
 
 ---
+
 # Beating Bloomberg's Wifi
 
 So I'm currently at [#Angelhack](//angelhack.com).

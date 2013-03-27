@@ -4,9 +4,9 @@ title: If You Can't Stand The Heat...
 
 ---
 
-# If you can't stand the heat
+# If You Can't Stand (The) Heat...
 
-I'm studying [#CO537][#co537], Functional Programming, and we're learning in [Haskell][haskell], and using an IDE called "[Heat][heat]" that provides syntax highlighting and basic compiling functions. And not much more than that. The save feature is confusing, and creating new '.hs' files is not apparent.
+I'm studying [CO537][co537], Functional Programming, and we're learning in [Haskell][haskell], and using an IDE called "[Heat][heat]" that provides syntax highlighting and basic compiling functions. And not much more than that. The save feature is confusing, and creating new '.hs' files is not apparent.
 
 So I want to escape Heat. And it turns out, it's pretty obvious!
 
@@ -32,7 +32,7 @@ GHCI actually has some excellent commands, including an editor, so by setting an
 
 This means we don't need another IDE (like Coda) or another shell open simultaneously to edit Haskell files. We can do everything in GHCI. Brilliant! `:)`
 
-[#co537]: http://twitter.com
+[co537]: https://twitter.com/search?q=%23co537
 [coda]: http://panic.com/coda
 [ghci]: http://www.haskell.org/haskellwiki/GHC/GHCi
 [haskell]: http://www.haskell.org

@@ -3,7 +3,8 @@ layout: post
 title: A Fresh Start!
 
 ---
-# A fresh start!
+
+# A Fresh Start!
 
 This is one of those weird articles I always write.
 

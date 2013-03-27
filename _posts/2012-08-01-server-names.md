@@ -3,6 +3,7 @@ layout: post
 title: Server Names
 
 ---
+
 > Your Cloud Server build is complete.
 Cloud Server: sam
 
@@ -23,4 +24,4 @@ Cloud Server: flynn
 
 &nbsp;
 
-Think I need new inspiration for server names. Any suggestions?
+Think I need new inspiration for server names.
