@@ -1,6 +1,7 @@
 ---
 layout: post
 title: VMWare Development
+tagline: Developing with virtual servers, for free!
 
 ---
 

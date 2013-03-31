@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Angelhack
+tagline: Kent took on Angelhack!
 
 ---
 

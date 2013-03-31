@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Beating Bloomberg's Wifi
+tagline: into submission
 
 ---
 
