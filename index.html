@@ -3,11 +3,11 @@ layout: default
 ---
 		
 		<div class="articles">
+			
 			{% for post in site.posts %}
 			<a class="article" href="{{ post.url }}">
 				<p class="lead">{{ post.title }} <small>{{ post.tagline }}</small></p>
 			</a>
 			
 			{% endfor %}
-			<p class="lead">Last updated at {{ site.time | date_to_long_string }}.</p>
 		</div>
