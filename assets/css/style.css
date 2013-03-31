@@ -1,0 +1,89 @@
+/**
+ *	Styling for the whole site.
+ *	Pretty easy, since Cleaness is doing the typography and Bootstrap is doing the layout.
+ *	
+ *	Many thanks to Chris (http://djpc.org.uk) for pointing out Bootstrap can be customised.
+ */
+	
+	@import url('clearness.css');
+	@import url('bootstrap.min.css');
+	@import url('bootstrap-responsive.min.css');
+	
+	p.lead {
+		margin-bottom: 20px;
+		font-size: 21px;
+		font-weight: 200;
+		line-height: 30px;
+	}
+	
+	div.content {
+		margin: 40px 0 20px 0;
+	}
+		
+		div.header {
+			padding: 20px 0 0 0;
+		}
+			
+			img.face {
+				-webkit-border-radius: 50%;
+				-moz-border-radius: 50%;
+				border-radius: 50%;
+				margin: 0 0 20px 0;
+			}
+		
+		div.articles {
+		}
+			
+			div.articles .article {
+				display: block;
+				margin: 15px 0;
+				padding: 18px 19px 5px;
+				background-color: #fff;
+				border: 1px solid #ddd;
+				-webkit-border-radius: 4px;
+				-moz-border-radius: 4px;
+				border-radius: 4px;
+			}
+			
+			div.articles a {
+				color: #333;
+			}
+				
+				div.articles a:hover {
+					text-decoration: none;
+				}
+			
+			div.articles a small {
+				margin-left: 10px;
+			}
+		
+		div.footer {
+			margin: 20px 0 40px 0;
+		}
+	
+	/**
+	 *	Little eyes!
+	 */
+	@media (max-width: 767px) {
+		
+		p.lead {
+			margin-bottom: 20px;
+			font-size: 16px;
+			font-weight: 200;
+			line-height: 20px;
+		}
+		
+		div.content {
+			margin: 15px 0 10px 0;
+		}
+			
+			div.header {
+				padding: 10px 0 30px 0;
+				text-align: center;
+			}
+			
+			div.articles a small {
+				margin-left: 5px;
+			}
+		
+	}
