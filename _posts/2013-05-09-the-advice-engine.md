@@ -14,13 +14,13 @@ Half an hour. To do what had just taken me four or five hours to do in PHP. (Thi
 
 But I wanted to know more. I wanted to experiment with this more.
 
-I wanted to put what I've learnt to actual use ^_^ Easy enough, except I need an idea.
+I wanted to put what I've learnt to actual use `^_^` Easy enough, except I need an idea.
 
 ## The Idea
 
 A friend of mine likes to give advice. Some advice is actually quite good, and some advice is quite funny! So why not offer a website that showcases the best and the brilliant quotes? Okay then!
 
-So get the domain. And the twitter handle. Perfect.
+So get the domain. And the Twitter handle. Perfect.
 
 ### The Content
 
@@ -52,15 +52,15 @@ To top it off, when a new tweet comes in, I want to tweet the quote as the offic
 Ideally I'd want these kind of HTTP endpoints:
 
 	/quotes
-		GET		Get all the quotes stored.
+		GET 	Get all the quotes stored.
 	/quote/latest
-		GET		Get the latest quote.
+		GET 	Get the latest quote.
 	/quote/random
-		GET		Get a random quote.
+		GET 	Get a random quote.
 	/quote(/:id)
-		GET		Get a quote with `:id`.
+		GET 	Get a quote with `:id`.
 		POST	Create a new quote.
-		PUT		Update a post with `:id`.
+		PUT 	Update a post with `:id`.
 		DELETE	Delete a post with `:id`.
 
 Getting all, latest & individual quotes is fairly simple. Random quotes isn't. However after a bit of researching there's are a few very clever implementations to get a random result on the [MongoDB Cookbook][mongodb-random], so I will implement one of those!
@@ -103,6 +103,7 @@ I've got [Crypto][cryptojs] for some magical checksumming I'm going to implement
 
 And finally
 
+	# Don't run this if you chose the command line option above! :P
 	$ npm install
 
 will now install all of our dependancies. EXCELLENT!
@@ -448,7 +449,7 @@ Although feedback from my friends about it has given me a nice little cushty ide
 
 In the meantime, be sure to [check out the repo][advice-repo], [check out the website][advice-site] for the API in live-action, and [be sure to read][@AdviceFromChris] our Twitter account ;)
 
-----
+&nbsp;
 
 This whole experience, writing stuff in Node, and so on, has given me amazing ideas. Now that I understand Twitter's API this'll allow me to tap into the true potential of Twitter (content generation) and now that I have a decent understanding of MongoDB through [Mongoose][mongoosejs] and now that I can knock up simple APIs with [Express][expressjs], I think my future in web development is going to be very interesting `;)` And I can't wait!
 
