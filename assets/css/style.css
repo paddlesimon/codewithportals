@@ -9,14 +9,9 @@
 	@import url('bootstrap.min.css');
 	@import url('bootstrap-responsive.min.css');
 	
-	body {
-		font-family: Georgia,Cambria,"Times New Roman",Times,serif;
-		font-size: 22px;
-	}
-	
 	p.lead {
 		margin-bottom: 20px;
-		font-size: 25px;
+		font-size: 22px;
 		font-weight: 200;
 		line-height: 35px;
 	}
