@@ -5,6 +5,16 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 		<title>{% if page.title %}{{ page.title }} &raquo; {% endif %}codewithportals</title>
+		<script type="text/javascript">
+			 var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-28506039-3']);
+			_gaq.push(['_trackPageview']);
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
 	</head>
 	<body>
 		<div class="container">
@@ -30,29 +40,13 @@
 			
 			<div class="row-fluid footer">
 				<div class="span12">
-					<p class="lead">This is an article on <a href="//code.withportals.com">codewithportals</a>.</p>
+					<p class="lead">This is an article on <a href="//codewithportals.com">codewithportals</a>.</p>
 				</div>
 			</div>
 			
 		</div>
 		<script src="//code.jdrydn.com/js/jquery/jquery.1.7.1.min.js" type="text/javascript"></script>
 		<script type="text/javascript">
-			/**
-			 *	Google Analytics!
-			 */
-			 var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-28506039-3']);
-			_gaq.push(['_trackPageview']);
-			
-			(function() {
-				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-			
-			/**
-			 *	Open any external URLs in a new tab.
-			 */
 			$(document).ready(function() {
 				$('a[href^="//"], a[href^="http://"], a[href^="https://"]').not('[href*="code.withportals.com"]').attr('target','_blank');
 			});
