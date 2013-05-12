@@ -446,6 +446,8 @@ I've also tightened the security of the entire API, implementing a weak checksum
 
 Although feedback from my friends about it has given me a nice little cushty idea about tweets and accounts, so watch this space ;)
 
+In the meantime, be sure to [check out the repo][advice-repo], [check out the website][advice-site] for the API in live-action, and [be sure to read][@AdviceFromChris] our Twitter account ;)
+
 ----
 
 This whole experience, writing stuff in Node, and so on, has given me amazing ideas. Now that I understand Twitter's API this'll allow me to tap into the true potential of Twitter (content generation) and now that I have a decent understanding of MongoDB through [Mongoose][mongoosejs] and now that I can knock up simple APIs with [Express][expressjs], I think my future in web development is going to be very interesting `;)` And I can't wait!
@@ -454,6 +456,9 @@ This whole experience, writing stuff in Node, and so on, has given me amazing id
 
 If you have any questions please [drop me a tweet][@jdrydn] and I'll happily get back to you! `^_^`
 
+[@AdviceFromChris]: https://twitter.com/advicefromchris
+[advice-repo]: https://github.com/jdrydn/advicefromchris
+[advice-site]: http://advicefromchris.com
 [@carbondeclare]: https://twitter.com/carbondeclare
 [cryptojs]: http://nodejs.org/api/crypto.html
 [@djpc123]: https://twitter.com/djpc123
