@@ -8,7 +8,7 @@ tagline: Building an engine in Node!
 
 Over the past couple of weeks I've been struggling to cope with the events of AngelHack 2013.
 
-I tried really hard to knock up an extendable `PHP & MySQL` API for a countdown application I was working on [in][@carbondeclare] [a][@edd_greer] [team][@lee], and I ended up struggling to cope with MySQL's interpretation of Stored Procedures (something I'm very familiar with at [Mindwork Labs][@mindworklabs]), so in about half an hour at some ridiculous hour like `5am` I knocked up (with *very* limited capabilities but lots of room for expansion (which was, by the way, the API's goal)) a NodeJS & MongoDB powered API that handled basic user management and event management.
+I tried really hard to knock up an extendable `PHP & MySQL` API for a countdown application I was working on [in][@carbondeclare] [a][@edd_greer] [team][@leethomaswalker], and I ended up struggling to cope with MySQL's interpretation of Stored Procedures (something I'm very familiar with at [Mindwork Labs][@mindworklabs]), so in about half an hour at some ridiculous hour like `5am` I knocked up (with *very* limited capabilities but lots of room for expansion (which was, by the way, the API's goal)) a NodeJS & MongoDB powered API that handled basic user management and event management.
 
 Half an hour. To do what had just taken me four or five hours to do in PHP. (This isn't a *"PHP sucks dude what are you doing with your life"* article, this is more of a *"sudden realisation of great truth"* article.
 
