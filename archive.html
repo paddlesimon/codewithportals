@@ -1,0 +1,33 @@
+---
+layout: default
+---
+		
+		<header>
+			<img src="{% site.face %}"/>
+			<div class="hero">
+				<h1>{{ site.title }}</h1>
+				<h2>{{ site.tagline }}</h2>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/archive">Archive</a></li>
+					<li><a href="/contact">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section class="content">
+			<div class="page">
+
+				<section class="title">
+					<h1>Archive</h1>
+					<h2>A list of all articles. Past &amp; Present.</h2>
+				</section>
+
+				<ul>
+					{% for post in site.posts %}
+					<li><a href="{{ post.permalink }}">{{ post.title }} - <em>{{ post.tagline }}</em></a></li>
+					{% endfor %}
+				</ul>
+			</div>
+		</section>

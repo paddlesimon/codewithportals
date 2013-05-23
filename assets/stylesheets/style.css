@@ -1,0 +1,184 @@
+	
+	body {
+		background: #1e1e1e;
+		color: #5e5e5d;
+		font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+		font-size: 18px;
+		line-height: 28px;
+	}
+	
+	h1, h2, h3, h4, h5, h6 {
+		color: #000;
+		font-family: "Myriad Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+		font-weight: normal;
+		margin: 20px 0 30px 0;
+	}
+		
+		h1 {
+			font-size: 52px;
+			line-height: 72px;
+		}
+		
+		h2 {
+			font-size: 45px;
+			line-height: 55px;
+		}
+		
+		h3 {
+			font-size: 34px;
+			line-height: 44px;
+		}
+		
+		h4 {
+			font-size: 30px;
+			line-height: 40px;
+		}
+		
+		h5 {
+			font-size: 26px;
+			line-height: 36px;
+		}
+		
+		h6 {
+			font-size: 22px;
+			line-height: 32px;
+		}
+	
+	header {
+		background: #3884bb no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+		
+		header img {
+			-webkit-border-radius: 50%;
+			-moz-border-radius: 50%;
+			border-radius: 50%;
+		}
+		
+		header .hero {
+			color: #fff;
+		}
+			
+			header .hero h1 {
+				color: #fff;
+				font-weight: bold;
+				line-height: 55px;
+			}
+			
+			header .hero h2 {
+				color: #fff;
+				font-weight: bold;
+				line-height: 48px;
+			}
+		
+		header nav ul li a {
+			color: #fff;
+			font-family: "Myriad Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+			padding: 1em 0.5em;
+			text-decoration: none;
+		}
+			
+			header nav ul li a:hover {
+				color: #fff;
+				border-bottom: 3px #fff solid;
+				text-decoration: none;
+			}
+	
+	section.content {
+		background: #f2f2f2;
+		padding: 35px 0;
+	}
+		
+		section.content h1, section.content h2, section.content h3, section.content h4, section.content h5, section.content h6 {
+			text-align: center;
+		}
+		
+		section.title {
+			margin: 20px 0 30px 0;
+		}
+			
+			section.title h1 {
+				font-weight: 700;
+				line-height: 62px;
+				margin: 5px 0 5px 0;
+			}
+			
+			section.title h2 {
+				font-size: 40px;
+				font-style: italic;
+				font-weight: 400;
+				line-height: 45px;
+				margin: 5px 0 5px 0;
+			}
+		
+		section.meta {
+			
+		}
+			
+			section.meta-push {
+				margin: 60px 0 30px 0;
+			}
+			
+			section.meta h3 {
+				color: #979796;
+				font-size: 22px;
+				line-height: 25px;
+				text-align: center;
+			}
+			
+			section.meta p {
+				color: #979796;
+				font-size: 18px;
+				line-height: 24px;
+				text-align: center;
+			}
+		
+		section.content p {
+			margin: 10px 0;
+		}
+		
+		section.content pre {
+			border-left: 1px #eee solid;
+			font-size: 14px;
+			line-height: 20px;
+			-moz-tab-size:    4;
+		    -o-tab-size:      4;
+		    -webkit-tab-size: 4;
+		    -ms-tab-size:     4;
+		    tab-size:         4;
+		}
+		
+		section.content ul {
+			list-style: square;
+		}
+	
+	footer {
+		color: #eee;
+	}
+		
+		footer h4 {
+			margin: 10px 0 10px 0;
+		}
+		
+		footer ul {
+			margin: 0;
+		}
+			
+			footer ul.right {
+				text-align: right;
+			}
+		
+		footer a {
+			color: #cdcdcd;
+			font-weight: bold;
+			text-decoration: none;
+		}
+			
+			footer a:hover {
+				color: #cdcdcd;
+				text-decoration: underline;
+			}
+	
