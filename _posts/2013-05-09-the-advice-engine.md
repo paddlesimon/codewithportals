@@ -1,5 +1,7 @@
 ---
+author: James
 layout: post
+published: false
 title: The Advice Engine
 tagline: Building an engine in Node!
 
