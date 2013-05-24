@@ -1,4 +1,5 @@
 ---
+author: James
 layout: post
 title: The Structure Of This Blog
 tagline: What's underneath it all?

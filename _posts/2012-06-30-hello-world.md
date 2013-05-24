@@ -1,4 +1,5 @@
 ---
+author: James
 layout: post
 title: A Fresh Start!
 tagline: Another bloody "Hello World!"...

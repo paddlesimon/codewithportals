@@ -12,6 +12,6 @@
 	}
 	
 	loadJavascripts({
-		"analytics" : "assets/javascripts/analytics.js"
+		"analytics" : "/assets/javascripts/analytics.js"
 	});
 	

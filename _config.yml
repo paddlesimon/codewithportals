@@ -3,3 +3,7 @@ permalink: /:year/:month/:title
 title: CodeWithPortals
 tagline: The writings of a technology geek.
 url: http://codewithportals.com
+
+safe: true
+lsi: false
+pygments: true

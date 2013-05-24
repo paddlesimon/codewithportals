@@ -1,10 +1,10 @@
 <!doctype html>
 <html>
 	<head>
-		<link href="assets/style.css" rel="stylesheet" type="text/css"/>
+		<link href="/assets/style.css" rel="stylesheet" type="text/css"/>
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
-		<title>{% site.title %}{% if page.title %} &raquo; {{ page.title }}{% endif %}</title>
+		<title>{{ site.title }}{% if page.title %} &raquo; {{ page.title }}{% endif %}</title>
 	</head>
 	<body>
 		{{ content }}
@@ -12,17 +12,17 @@
 			<div class="page">
 				<ul>
 					<li><h4>Recent Posts</h4></li>
-					{% for post in site.posts limit: 5 %}
+					{% for post in site.posts limit:5 %}
 					<li><a href="{{ post.url }}">{{ post.title }}</a></li>
 					{% endfor %}
 				</ul>
 				<ul class="right">
-					<li><h4>{% site.title %}</h4></li>
-					<li>{% site.tagline %}</li>
+					<li><h4>{{ site.title }}</h4></li>
+					<li>{{ site.tagline }}</li>
 					<li>By <a href="http://jdrydn.com">James</a>.</li>
 				</ul>
 			</div>
 		</footer>
-		<script src="/js/init.js" type="text/javascript"></script>
+		<script src="/assets/init.js" type="text/javascript"></script>
 	</body>
 </html>

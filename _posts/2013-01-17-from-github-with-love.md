@@ -1,4 +1,5 @@
 ---
+author: James
 layout: post
 title: From Github With Love &hearts;
 tagline: Just because I &hearts; Github!

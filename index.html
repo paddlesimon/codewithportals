@@ -2,9 +2,8 @@
 layout: default
 ---
 		{% assign post = site.posts.first %}
-		
 		<header>
-			<img src="{% site.face %}"/>
+			<img src="{{ site.face }}"/>
 			<div class="hero">
 				<h1>{{ site.title }}</h1>
 				<h2>{{ site.tagline }}</h2>
@@ -30,7 +29,7 @@ layout: default
 				{{ post.content }}
 				
 				<section class="meta meta-push">
-					<p>This was an article on <strong>CodeWithPortals</strong> by <strong>{{ post.author }}</strong>.</p>s
+					<p>This was an article on <strong>CodeWithPortals</strong> by <strong>{{ post.author }}</strong>.</p>
 					<p>If you have any questions please <a href='https://twitter.com/jdrydn'>drop me a tweet</a> and I&#8217;ll happily get back to you! <code>^_^</code></p>
 				</section>
 			</div>
