@@ -11,8 +11,8 @@ layout: default
 			<nav>
 				<ul>
 					<li><a href="/">Home</a></li>
-					<li><a href="/archive">Archive</a></li>
-					<li><a href="/contact">Contact</a></li>
+					<li><a href="/archive.html">Archive</a></li>
+					<li><a href="/contact.html">Contact</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -24,9 +24,9 @@ layout: default
 					<h2>A list of all articles. Past &amp; Present.</h2>
 				</section>
 
-				<ul>
+				<ul class="unstyled archive">
 					{% for post in site.posts %}
-					<li><a href="{{ post.permalink }}">{{ post.title }} - <em>{{ post.tagline }}</em></a></li>
+					<li><a href="{{ post.url }}">{{ post.title }} - <em>{{ post.tagline }}</em></a></li>
 					{% endfor %}
 				</ul>
 			</div>

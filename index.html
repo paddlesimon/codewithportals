@@ -2,7 +2,7 @@
 layout: default
 ---
 		{% assign post = site.posts.first %}
-		<header>
+		<header style="background-image: url('{{ post.background }}');">
 			<img src="{{ site.face }}"/>
 			<div class="hero">
 				<h1>{{ site.title }}</h1>
@@ -11,8 +11,8 @@ layout: default
 			<nav>
 				<ul>
 					<li><a href="/">Home</a></li>
-					<li><a href="/archive">Archive</a></li>
-					<li><a href="/contact">Contact</a></li>
+					<li><a href="/archive.html">Archive</a></li>
+					<li><a href="/contact.html">Contact</a></li>
 				</ul>
 			</nav>
 		</header>
