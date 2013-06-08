@@ -6,8 +6,6 @@ tagline: Developing with virtual servers, for free!
 
 ---
 
-# VMWare Development
-
 Over the six months or so I've been using [Virtualbox][virtualbox] & an [Ubuntu Server][ubuntu] OS as my `devbox` (development machine). And it's been great.
 
 Except for Virtualbox **draining** my battery.
@@ -179,7 +177,7 @@ And so on.
 
 Well, I hope you got a kick outta reading this article! Any questions [tweet me][tweet] and I'll get back to you! :)
 
-[heat]: http://code.withportals.com/2013/02/if-you-cant-stand-the-heat
+[heat]: /2013/02/if-you-cant-stand-the-heat
 [phpmyadmin]: http://www.phpmyadmin.net
 [sequel-pro]: http://www.sequelpro.com
 [tweet]: http://twitter.com/jdrydn

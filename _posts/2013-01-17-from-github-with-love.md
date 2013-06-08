@@ -6,8 +6,6 @@ tagline: Just because I &hearts; Github!
 
 ---
 
-# From Github With Love &hearts;
-
 So now I've mastered how to do a decent post-commit hook using [Github](//github.com), I'm gonna post it here for future reference.
 
 I'm gonna be publishing a private repo for a University assessment to the fake domain `beer.co525.com`. This doesn't exist, except in my `/etc/hosts` file, because only **I** want to access it!

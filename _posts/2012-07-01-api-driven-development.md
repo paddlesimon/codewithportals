@@ -6,8 +6,6 @@ tagline: Building stuff around APIs.
 
 ---
 
-# API-Driven Development
-
 APIs are everywhere. **Everywhere**. Allowing software to communicate with, well, software.
 
 In trying to write about APIs, and defining them, I'm reminded of [Jamie Rumblelow](https://twitter.com/jamierumbelow) when he spoke at the very first Tomorrow's Web conference (formed by [Rob Day](https://twitter.com/robday) and the infamous [Grant Bell](https://twitter.com/grantbell)). Jamie said:

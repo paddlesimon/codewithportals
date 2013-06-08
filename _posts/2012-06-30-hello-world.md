@@ -6,8 +6,6 @@ tagline: Another bloody "Hello World!"...
 
 ---
 
-# A Fresh Start!
-
 This is one of those weird articles I always write.
 
 > Hello world!

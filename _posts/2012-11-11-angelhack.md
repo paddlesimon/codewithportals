@@ -6,8 +6,6 @@ tagline: Kent took on Angelhack!
 
 ---
 
-# Angelhack
-
 So we're hacking at Angelhack.
 
 Together with [Becca][becca] and [Chris][djpc] I'm building a student recipe finder. The idea is simple. *A recipe suggestion app that gives out suggestions based on what you already have in your cupboards.*

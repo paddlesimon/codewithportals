@@ -4,9 +4,7 @@ layout: post
 title: Beating Bloomberg's Wifi
 tagline: into submission
 
----
-
-# Beating Bloomberg's Wifi
+--
 
 So I'm currently at [#Angelhack](//angelhack.com).
 

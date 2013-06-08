@@ -6,8 +6,6 @@ tagline: What's underneath it all?
 
 ---
 
-# The Structure Of This Blog
-
 This is a [Jekyll](https://github.com/mojombo/jekyll) blog, which is built and published whenever I push to the `gh-pages` of the [`codewithportals`](https://github.com/jdrydn/codewithportals) repo.
 
 	_layouts/

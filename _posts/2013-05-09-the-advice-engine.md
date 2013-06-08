@@ -6,7 +6,6 @@ title: The Advice Engine
 tagline: Building an engine in Node!
 
 ---
-# The Advice Engine
 
 Over the past couple of weeks I've been struggling to cope with the events of AngelHack 2013.
 

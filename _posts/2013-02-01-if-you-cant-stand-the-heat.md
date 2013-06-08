@@ -6,8 +6,6 @@ tagline: Please evacuate from the kitchen.
 
 ---
 
-# If You Can't Stand (The) Heat...
-
 I'm studying [CO537][co537], Functional Programming, and we're learning in [Haskell][haskell], and using an IDE called "[Heat][heat]" that provides syntax highlighting and basic compiling functions. And not much more than that. The save feature is confusing, and creating new '.hs' files is not apparent.
 
 So I want to escape Heat. And it turns out, it's pretty obvious!
