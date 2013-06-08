@@ -4,6 +4,8 @@ title: CodeWithPortals
 tagline: The writings of a technology geek.
 url: http://codewithportals.com
 
+source: .
+destination: ./_site
 safe: true
 lsi: false
 pygments: true
