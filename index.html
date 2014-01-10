@@ -1,36 +1,14 @@
 ---
 layout: default
 ---
-		{% assign post = site.posts.first %}
-		<header style="background-image: url('{{ post.background }}');">
-			<img src="{{ site.face }}"/>
-			<div class="hero">
-				<h1>{{ site.title }}</h1>
-				<h2>{{ site.tagline }}</h2>
-			</div>
-			<nav>
-				<ul>
-					<li><a href="/">Home</a></li>
-					<li><a href="/archive.html">Archive</a></li>
-					<li><a href="/contact.html">Contact</a></li>
-				</ul>
-			</nav>
-		</header>
-		<section class="content">
-			<div class="page">
-				<section class="title">
-					<h1>{{ post.title }}</h1>
-					<h2>{{ post.tagline }}</h2>
-				</section>
-				<section class="meta">
-					<h3 class="date">{{ post.date | date_to_long_string }}</h3>
-				</section>
-				
-				{{ post.content }}
-				
-				<section class="meta meta-push">
-					<p>This was an article on <strong>CodeWithPortals</strong> by <strong>{{ post.author }}</strong>.</p>
-					<p>If you have any questions please <a href='https://twitter.com/jdrydn'>drop me a tweet</a> and I&#8217;ll happily get back to you! <code>^_^</code></p>
-				</section>
-			</div>
-		</section>
+{% assign post = site.posts.first %}
+<article class="post">
+	<div class="clearfix">
+{{ post.content }}
+	</div>
+	<aside class="metadata clearfix">
+		<div class="details">
+			<a class="timestamp" href="{{ post.url }}">Posted {{ post.date | date_to_long_string }}</a>
+		</div>
+	</aside>
+</article>

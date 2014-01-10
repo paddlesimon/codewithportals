@@ -1,6 +1,65 @@
-	
-	@import url('stylesheets/reset.css');
-	@import url('http://fonts.googleapis.com/css?family=Arvo|Lora|Libre+Baskerville|Vollkorn');
-	@import url('stylesheets/layout.css');
-	@import url('stylesheets/style.css');
-	
+@import url("stylesheets/fonts.css");
+@import url("stylesheets/base.css");
+
+blockquote {
+	font-size: 24px;
+	line-height: 38px;
+	color: #272727;
+	margin: 0;
+}
+
+pre, code, kbd, samp {
+	font-family: monospace, sans-serif;
+}
+
+pre {
+	border-left: 1px #eee solid;
+	font-size: 14px;
+	line-height: 20px;
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	-webkit-tab-size: 4;
+	-ms-tab-size: 4;
+	tab-size: 4;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	padding: 15px;
+}
+
+a {
+	color: #56AAC3;
+} 
+.load-more-wrap:hover .load-more {
+	background-color: #215e70;
+} 
+.load-more,
+.load-more-wrap.loading .load-more,
+.load-more-wrap.loading:hover .load-more {
+	background-color: #56AAC3;
+} 
+footer a:hover,
+.rte a.tumblr_blog:hover {
+	color: #215e70;
+} 
+
+.sidebar .social-icons, footer .social-icons, .sidebar .links {
+	display: block;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	color: #333333;
+} 
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover,
+.type-link h1 a:hover .icon {
+	color: #56AAC3;
+}

@@ -6,6 +6,9 @@ tagline: Developing with virtual servers, for free!
 
 ---
 
+# VMWare Development
+### Developing with virtual servers, for free!
+
 Over the six months or so I've been using [Virtualbox][virtualbox] & an [Ubuntu Server][ubuntu] OS as my `devbox` (development machine). And it's been great.
 
 Except for Virtualbox **draining** my battery.

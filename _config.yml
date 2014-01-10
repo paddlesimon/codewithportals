@@ -1,7 +1,8 @@
-face: /assets/images/james.jpg
+background: http://chell.codewithportals.com.s3.amazonaws.com/backgrounds/the-view-from-london.jpg
+face: http://chell.codewithportals.com.s3.amazonaws.com/faces/james.jpg
 permalink: /:year/:month/:title
 title: CodeWithPortals
-tagline: The writings of a technology geek.
+description: The ramblings of a web developer, living in his natural habitat.
 url: http://codewithportals.com
 
 source: .

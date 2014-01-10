@@ -1,3 +1,5 @@
 # Codewithportals
 
-A blog. Powered by Jeykll.
+A blog. Powered by [Jekyll][jekyll].
+
+[jekyll]: http://jekyllrb.com

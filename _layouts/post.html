@@ -1,31 +1,13 @@
 ---
 layout: default
 ---
-		<header style="background-image:url('{{ page.background }}');">
-			<img src="{{ site.face }}"/>
-			<nav>
-				<ul>
-					<li><a href="/">Home</a></li>
-					<li><a href="/archive.html">Archive</a></li>
-					<li><a href="/contact.html">Contact</a></li>
-				</ul>
-			</nav>
-		</header>
-		<section class="content">
-			<div class="page">
-				<section class="title">
-					<h1>{{ page.title }}</h1>
-					<h2>{{ page.tagline }}</h2>
-				</section>
-				<section class="meta">
-					<h3 class="date">{{ page.date | date_to_long_string }}</h3>
-				</section>
-				
-				{{ content }}
-				
-				<section class="meta meta-push">
-					<p>This was an article on <strong>CodeWithPortals</strong> by <strong>{{ page.author }}</strong>.</p>
-					<p>If you have any questions please <a href='https://twitter.com/jdrydn'>drop me a tweet</a> and I&#8217;ll happily get back to you! <code>^_^</code></p>
-				</section>
-			</div>
-		</section>
+<article class="post">
+	<div class="clearfix">
+{{ content }}
+	</div>
+	<aside class="metadata clearfix">
+		<div class="details">
+			<a class="timestamp" href="{{ post.url }}">Posted {{ page.date | date_to_long_string }}</a>
+		</div>
+	</aside>
+</article>
