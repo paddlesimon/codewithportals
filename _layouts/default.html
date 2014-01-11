@@ -7,18 +7,19 @@
 	<head>
 		<meta charset="utf-8"/>
 		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
-		<meta name="description" content="The rambling web developer, in his natural habitat."/>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
-		<meta property="fb:admins" content="1082923735"/>
-		<meta property="og:site_name" content="CodeWithPortals"/>
+		<meta name="description" content="{{ site.description }}"/>
 		<link href="/assets/style.css" rel="stylesheet" type="text/css"/>
 		<title>{{ site.title }}{% if page.title %} &raquo; {{ page.title }}{% endif %}</title>
 		<meta charset="utf-8">
+		<meta property="fb:admins" content="1082923735"/>
+		<meta property="og:site_name" content="CodeWithPortals"/>
+		<meta property="og:type" content="website"/>
 		<meta name="twitter:site" content="{{ site.title }}"/>
 		<meta name="twitter:card" content="summary"/>
 		<meta name="twitter:title" content="{{ site.title }}{% if page.title %} &raquo; {{ page.title }}{% endif %}"/>
 		<meta name="twitter:description" content="The rambling web developer, in his natural habitat."/>
 		<meta name="twitter:creator" content="jdrydn"/>
+		<!-- {{ site.url }} -->
 	</head>
 	<body class="index-page">
 		<header style="background-image:url({{ site.background }});"></header>
