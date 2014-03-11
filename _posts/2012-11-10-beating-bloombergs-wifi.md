@@ -3,8 +3,7 @@ author: James
 layout: post
 title: Beating Bloomberg's Wifi
 tagline: into submission
-
---
+---
 
 So I'm currently at [#Angelhack](//angelhack.com).
 
