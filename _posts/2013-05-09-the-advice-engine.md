@@ -1,10 +1,9 @@
 ---
 author: James
 layout: post
-published: false
+published: true
 title: The Advice Engine
 tagline: Building an engine in Node!
-
 ---
 
 Over the past couple of weeks I've been struggling to cope with the events of AngelHack 2013.
