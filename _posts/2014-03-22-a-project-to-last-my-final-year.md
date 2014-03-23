@@ -12,8 +12,6 @@ So if I am to build something, I want it to last. Like, I really really want it 
 
 ## Technology
 
-Whilst I am stuck whilst thinking for ideas, I am not stuck when thinking about technology.
-
 Here are my options for the behind-the-scenes technology for this final year project:
 
 ### PHP
@@ -30,7 +28,9 @@ I've actually been looking for a project to do in Node these days, ever since I 
 
 ## Ideas
 
-### Overheard, again
+I have a few ideas for the basis of this project, however I need to carefully plan and consider each idea before suggesting one!
+
+### Overheard, again
 
 **Overheard** was an old project I worked on with a group of friends a couple of years ago, actually. I ended up [shutting down][we-heard] the project due to lack of time and teamwork, however this is still a viable idea and could be a nice final year project. "*My final year project was a reboot of a first year project*". Sounds very sentimental, but given my knowledge of NodeJS and MySQL might be the kick I need to build a wonderful Overheard API & Frontend website!
 
