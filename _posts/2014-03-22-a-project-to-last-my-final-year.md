@@ -37,7 +37,7 @@ I have a few ideas for the basis of this project, however I need to carefully pl
 
 	overheard.co
 
-**Overheard** was an old project I worked on with a group of friends a couple of years ago, actually. I ended up [shutting down][we-heard] the project due to lack of time and teamwork, however this is still a viable idea and could be a nice final year project. "*My final year project was a reboot of a first year project*". Sounds very sentimental, but given my knowledge of NodeJS and MySQL might be the kick I need to build a wonderful Overheard API & Frontend website!
+**Overheard** was an old project I worked on with a group of friends a couple of years ago, actually. I ended up [shutting down][we-heard] the project due to lack of time and teamwork, however this is still a viable idea and could be a nice final year project. "*My final year project was a reboot of a first year project*". Sounds very sentimental, but given my new knowledge of NodeJS and MySQL it might be the kick I need to build a wonderful Overheard API & Frontend website!
 
 If I did this in this new module Node format, I could easily build models to interact with the database and then quickly build an API layer to interact with that too! This, although relatively "simple", would require a lot of initial work so I can easily build an API layer.
 
