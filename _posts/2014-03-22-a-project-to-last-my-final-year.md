@@ -19,7 +19,9 @@ Here are my options for the behind-the-scenes technology for this final year pro
 
 Writing a project in PHP is fun. Honestly, I really think it is fun. I love how PHP works, I love how simple PHP is, I don't like how people slag it off even though they totally love Facebook which is built on a PHP-base (at it's heart, of course Facebook have practically rewritten PHP!).
 
-It's also familar. Which is definitely a problem for a final year project.
+It's also familiar. Which is definitely a problem for a final year project.
+
+Well, is it? Familiar can be bad, but it could also mean I can do some more daring and untraversed things in a language where I am comfortable exploring it's limits. It seems this needs thinking.
 
 ### Node
 
