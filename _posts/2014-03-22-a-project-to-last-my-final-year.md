@@ -51,6 +51,21 @@ This project would be a **lot** of work, re-creating issue tracking software, an
 
 I would like to build this project in Node or PHP, but I would 'modulise' the structure, so it behaves with independent modules that can be written to perfect strict standards and then have dirty controllers to join them all together!
 
+What would be the aims? How would it work?
+
+- It would need to be able to 'drop in' to business environments, as well as personal environments (most business software works for personal use anyway!).
+- It would need to function like Jira, Trac, and Github, but have a good user interface and great user experience like Github.
+- Ideally it would be able to view (& export) gant charts and similar timescale functionality.
+- Easy to setup & maintain
+  - Most likely achieved through Git & NPM
+  - Through the use of a shell script (imagine as simple as `$ ./tracker update`)
+- User roles
+  - Could even write to SVN repos to set user passwords for SVN repos?
+    - Become an AUTH procedure for SVN repos themselves?
+	- **How does SVN store passwords client-side securely? Is this possible?**
+- Would also need good manuals & perhaps a wiki for documentation for IT Administrators.
+- Easy to setup, 'just works', etc.
+
 ### ThatPixel
 
 	thatpixel.com
