@@ -1,0 +1,67 @@
+- name: 1Password
+  description: An awesome password manager.
+  url: https://agilebits.com/onepassword/mac
+  source: App Store
+
+- name: Alfred
+  source: App Store
+
+- name: Atom
+  source: Web
+
+- name: Brackets
+  source: Web
+
+- name: Coda 2
+  source: App Store
+
+- name: Cyberduck
+  source: Web
+
+- name: Google Chrome
+  source: Web
+
+- name: iTerm
+  source: Web
+
+- name: Microsoft OneNote
+  source: App Store
+
+- name: Microsoft Remote Desktop
+  source: App Store
+
+- name: Mou
+  source: Web
+
+- name: Music Manager
+  source: Web
+
+- name: Pages
+  source: App Store
+
+- name: Pixelmator
+  source: App Store
+
+- name: Sequel Pro
+  source: Web
+
+- name: Simplenote
+  source: Web
+
+- name: Skype
+  source: Web
+
+- name: Spotify
+  source: Web
+
+- name: Spotify Notification
+  source: Web
+
+- name: Spout
+  source: App Store
+
+- name: VirtualBox
+  source: Web
+
+- name: VLC
+  source: Web
