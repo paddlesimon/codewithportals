@@ -52,7 +52,7 @@ So if you need to build your own Vagrant boxes, just fire up a Vagrant from a tr
 
 I hope you found this somewhat useful! As always, any questions, [tweet me][twitter]!
 
-[tweet]: https://twitter.com/jdrydn
+[twitter]: https://twitter.com/jdrydn
 [vagrant]: https://vagrantup.com
 [vagrant-cloud]: https://vagrantcloud.com
 [vagrant-config]: http://docs.vagrantup.com/v2/vagrantfile/machine_settings.html
