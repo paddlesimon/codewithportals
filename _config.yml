@@ -5,6 +5,7 @@ title: CodeWithPortals
 description: The ramblings of a web developer, living in his natural habitat.
 url: http://codewithportals.com
 
+markdown: kramdown
 source: .
 destination: ./_site
 safe: true
