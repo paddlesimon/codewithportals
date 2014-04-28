@@ -48,8 +48,6 @@ Both are pulled from Vagrant Cloud, and both have full PHP and NodeJS setups, re
 
 So if you need to build your own Vagrant boxes, just fire up a Vagrant from a trusted source (like hashicorp!) and build one yourself! It's so easy! I've done the same for my work Vagrants (except they're stored on our version control server and are [referenced by hand in][vagrantconfig] the Vagrantfile with `config.vm.box_url`)!!
 
----
-
 I hope you found this somewhat useful! As always, any questions, [tweet me][twitter]!
 
 [twitter]: https://twitter.com/jdrydn
